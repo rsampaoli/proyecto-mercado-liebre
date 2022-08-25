@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: #ededed;
+}
+
+img {
+    width: 100%;
+}
+
+.botones {
+    display: block;
+    text-align: center;
+}
+
+.requerimientos1 input {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid #222;
+    border-radius: 4px;
+}
+
+.requerimientos1fecha {
+    display: flex;
+    align-items: left;
+    margin-left: 20px;
+    width: 80%;
+    border: 1px solid #222;
+    border-radius: 4px;
+}
+
+h3 {
+    display: flex;
+    align-items: left;
+    margin-left: 20px;
+    width: 80%;
+
+}
+
+.requerimientos2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding-right: 10px;
+
+}
+
+input[type="radio"] {
+    vertical-align: baseline;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+
+}
+
+footer {
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-around;
+}
+
+.electro {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.moda {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.hogar {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.jugueteria {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.vida {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+del styles
+
+
+header{
+    background-color: #EAC926;
+}
+
+.mainTopHead {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: #ebebeb;
+}
+
+img {
+    width: 80vw;
+
+}
+
+main {
+    text-align: center;
+    width: 90vw;
+}
+
+.ofertas,
+.tituloCompra {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.ultimaCompra {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.articulo {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 10px;
+
+}
+
+.descripcionProducto {
+    text-align: left;
+}
+
+.descripcionArtTop {
+    display: flex;
+    padding-left: 10px;
+
+}
+
+.descripcionArtTop p {
+    margin: 0 5px;
+}
+
+.descripcionArtBot {
+    display: flex;
+}
+
+.descripcionArtBot p {
+    margin: 10px;
+}
+
+.iconoenvio {
+    color: green;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.banner {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+}
+
+.barraDeNavegacion a {
+    text-decoration: none;
+    color: #03264C;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.burger-menu {
+    font-size: 20px;
+    color: white;
+    display: block;
+    background-color: #03264C;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 30px;
+    margin: auto;
+}
+
+.logoML {
+    padding: 20px;
+}
