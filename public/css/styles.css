@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
 }
 
 .main-header {
@@ -95,6 +97,39 @@ body {
 .descuento {
     color: #39b54a;
     font-size: 12px;
+}
+
+.descripcionProducto {
+    display: inline;
+}
+
+.descripcionArtTop {
+    display: flex;
+    border-top: #ebebeb 2px solid;
+}
+
+.descripcionArtBot {
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+
+.price {
+    margin-left: 10%;
+}
+
+.descuento {
+    color: #39b54a;
+    margin: auto;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    font-weight: 400;
+    color: #666;
 }
 
 @media (min-width: 768px) {

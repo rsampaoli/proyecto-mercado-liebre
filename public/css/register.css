@@ -1,6 +1,62 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.copy-header {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.hamburger-button {
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-header-bot {
+    display: none;
+}
+
+.main-header-bot ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-header-bot a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+}
+
+.busqueda-bar {
+    display: none;
+}
+
+.busqueda-icon {
+    display: none;
+}
+
 
 body {
     font-family: 'Roboto';
@@ -12,9 +68,53 @@ img {
     width: 100%;
 }
 
+.password {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.password input {
+    border: 1px solid #222;
+    border-radius: 4px;
+    align-items: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 35%;
+}
+
+h3 {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0px;
+    font-weight: 400;
+    color: #666;
+    font-size: 18px;
+}
+
 .botones {
-    display: block;
-    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.button-send {
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5%;
+    background-color: rgb(100, 100, 100);
+}
+
+.button-delete {
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5%;
+    background-color: rgb(100, 100, 100);
 }
 
 .requerimientos1 input {
@@ -75,10 +175,18 @@ footer {
     margin-bottom: 2%;
 }
 
+.electro input {
+    margin-right: 10px;
+}
+
 .moda {
     display: flex;
     margin-left: 10%;
     margin-bottom: 2%;
+}
+
+.moda input {
+    margin-right: 10px;
 }
 
 .hogar {
@@ -87,10 +195,18 @@ footer {
     margin-bottom: 2%;
 }
 
+.hogar input {
+    margin-right: 10px;
+}
+
 .jugueteria {
     display: flex;
     margin-left: 10%;
     margin-bottom: 2%;
+}
+
+.jugueteria input {
+    margin-right: 10px;
 }
 
 .vida {
@@ -99,117 +215,10 @@ footer {
     margin-bottom: 2%;
 }
 
-
-
-
-
-
-
-del styles
-
-
-header{
-    background-color: #EAC926;
+.vida input {
+    margin-right: 10px;
 }
 
-.mainTopHead {
-    display: flex;
-    justify-content: center;
-    flex-flow: row;
-}
-
-body {
-    font-family: 'Roboto';
-    font-size: 14px;
-    background-color: #ebebeb;
-}
-
-img {
-    width: 80vw;
-
-}
-
-main {
-    text-align: center;
-    width: 90vw;
-}
-
-.ofertas,
-.tituloCompra {
-    border-bottom: 1px solid #ebebeb;
-}
-
-.ultimaCompra {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-
-.articulo {
-    background-color: white;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    margin: 10px;
-
-}
-
-.descripcionProducto {
-    text-align: left;
-}
-
-.descripcionArtTop {
-    display: flex;
-    padding-left: 10px;
-
-}
-
-.descripcionArtTop p {
-    margin: 0 5px;
-}
-
-.descripcionArtBot {
-    display: flex;
-}
-
-.descripcionArtBot p {
-    margin: 10px;
-}
-
-.iconoenvio {
-    color: green;
-    padding-right: 10px;
-    text-align: right;
-}
-
-.banner {
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    align-content: center;
-}
-
-.barraDeNavegacion a {
-    text-decoration: none;
-    color: #03264C;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 17px;
-}
-
-.burger-menu {
-    font-size: 20px;
-    color: white;
-    display: block;
-    background-color: #03264C;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    max-width: 30px;
-    margin: auto;
-}
-
-.logoML {
-    padding: 20px;
+.requerimientos3 {
+    font-size: 18px;
 }

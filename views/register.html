@@ -8,61 +8,93 @@
     <title> </title>
     <link rel="stylesheet" href="/css/register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 
 <body>
-    <header>
-        <img src="/images/imagenMia.jpg" alt="">
+    <header class="main-header">
+        <div class="main-header-top">
+            <img src="/images/logo-mercado-liebre.svg" class="logo">
+            <input class="busqueda-bar" placeholder="Busqueda" type="text">
+            <div class="busqueda-icon"> <button><i class="fas fa-search"></i></button></div>
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Compra en cuotas y sin tarjeta de credito
+            </h2>
+        </div>
+        <a href="#" class="hamburger-button">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav class="main-header-bot">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayudar</a></li>
+            </ul>
+            <ul class="right-navbar">
+                <li><a href=".views//register">Crea tu cuenta</a><i class="far fa-address-card"></i></li>
+                <li><a href="#">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="#">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
     </header>
-    <form action="/registro" method="POST">
-        <div class="requerimientos1">
-            <input type="text" placeholder="Nombre y apellido" name="nombreyapellido">
-            <input type="text" placeholder="Nombre de usuario" name="usuario">
-            <input type="email" placeholder="Email" name="email">
-        </div>
-        <h3>Fecha de nacimiento</h3>
-        <input class="requerimientos1fecha" type="date" id="birthday" name="birthday">
-        <div class="requerimientos1">
-            <input type="text" placeholder="Domicilio" name="domicilio">
-        </div>
-        <h3>Perfil de usuario</h3>
-        <div class="requerimientos2">
-            <div class="catCompra">
-                <input type="radio" name="Comprador" value="Comprador">
-                <label for="Comprador">Comprador</label>
+
+    <main>
+        <img src="/images/img-home-banner.jpg" class="banner">
+        <form action="/registro" method="POST">
+            <div class="requerimientos1">
+                <input type="text" placeholder="Nombre y apellido" name="nombreyapellido">
+                <input type="text" placeholder="Nombre de usuario" name="usuario">
+                <input type="email" placeholder="Email" name="email">
             </div>
-            <div class="catVenta">
-                <input type="radio" name="Vendedor" value="Vendedor">
-                <label for="Vendedor">Vendedor</label>
+            <div class="password">
+                <input class="passwordfirst" type="text" placeholder="Contraseña" name="contraseña">
+                <input class="passwordagain" type="text" placeholder="Confirmar contraseña" name="confirmarContraseña">
             </div>
-        </div>
-        <h3>Intereses</h3>
-        <div class="requerimientos3">
-            <div class="electro">
-                <input type="checkbox" name="Electro" value="Electro">
-                <label for="Electro">Electro</label>
+            <h3>Fecha de nacimiento</h3>
+            <input class="requerimientos1fecha" type="date" id="birthday" name="birthday">
+            <div class="requerimientos1">
+                <input type="text" placeholder="Domicilio" name="domicilio">
             </div>
-            <div class="moda">
-                <input type="checkbox" name="Moda" value="Moda">
-                <label for="Moda">Moda</label>
+            <h3>Perfil de usuario</h3>
+            <div class="requerimientos2">
+                <div class="catCompra">
+                    <input type="radio" name="Comprador" value="Comprador">
+                    <label for="Comprador">Comprador</label>
+                </div>
+                <div class="catVenta">
+                    <input type="radio" name="Vendedor" value="Vendedor">
+                    <label for="Vendedor">Vendedor</label>
+                </div>
             </div>
-            <div class="hogar">
-                <input type="checkbox" name="Hogar" value="Hogar">
-                <label for="Hogar">Hogar</label>
+            <h3>Intereses</h3>
+            <nav class="requerimientos3">
+                <div class="electro">
+                    <input type="checkbox" name="Electro" value="Electro">
+                    <label for="Electro">Electro</label>
+                </div>
+                <div class="moda">
+                    <input type="checkbox" name="Moda" value="Moda">
+                    <label for="Moda">Moda</label>
+                </div>
+                <div class="hogar">
+                    <input type="checkbox" name="Hogar" value="Hogar">
+                    <label for="Hogar">Hogar</label>
+                </div>
+                <div class="jugueteria">
+                    <input type="checkbox" name="Jugueteria" value="Jugueteria">
+                    <label for="Jugueteria">Jugueteria</label>
+                </div>
+                <div class="vida">
+                    <input type="checkbox" name="Vida sana" value="Vida sana">
+                    <label for="Vida sana">Vida sana</label>
+                </div>
+            </nav>
+            <div class="botones">
+                <button class="button-send" type="submit" value="Enviar">Enviar</button>
+                <button class="button-delete" type="reset" value="Borrar">Borrar</button>
             </div>
-            <div class="jugueteria">
-                <input type="checkbox" name="Jugueteria" value="Jugueteria">
-                <label for="Jugueteria">Jugueteria</label>
-            </div>
-            <div class="vida">
-                <input type="checkbox" name="Vida sana" value="Vida sana">
-                <label for="Vida sana">Vida sana</label>
-            </div>
-        </div>
-        <div class="botones">
-            <button type="submit" value="Enviar">Enviar</button>
-            <button type="reset" value="Borrar">Borrar</button>
-        </div>
-    </form>
+        </form>
+    </main>
 </body>
