@@ -302,6 +302,7 @@ h3 {
         padding: 5px 5px;
         transition: all 200ms;
     }
+
     .text-navbar {
         transition: all 200ms;
         color: #444;
@@ -339,10 +340,6 @@ h3 {
         padding-right: 15vw;
     }
 
-    .foto-articulo {
-        max-width: 22vw;
-    }
-
     .productos-ultima-compra {
         display: flex;
         flex-wrap: nowrap;
@@ -351,12 +348,31 @@ h3 {
         max-width: 1200px;
     }
 
+    .foto-articulo {
+        position: sticky;
+        max-width: 18vw;
+    }
+
     .articulo {
-        position: relative;
+        position: sticky;
         margin: 5px 5px;
-        max-width: 22vw;
+        max-width: 18vw;
         box-shadow: none;
         transition: all 500ms;
+    }
+
+    .foto-articulo:hover {
+        max-width: 33vw;
+        z-index: 10;
+        margin: 0;
+        padding: 0;
+    }
+
+    .articulo:hover {
+        max-width: 33vw;
+        z-index: 10;
+        margin: 0;
+        padding: 0;
     }
 
     .articulo:hover {
