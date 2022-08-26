@@ -300,6 +300,19 @@ h3 {
     .main-header-bot a {
         font-size: 18px;
         padding: 5px 5px;
+        transition: all 200ms;
+    }
+    .text-navbar {
+        transition: all 200ms;
+        color: #444;
+    }
+
+    .text-navbar:hover {
+        color: black;
+    }
+
+    .main-header-bot a:hover {
+        color: black;
     }
 
     .copy-header {
@@ -339,9 +352,16 @@ h3 {
     }
 
     .articulo {
+        position: relative;
         margin: 5px 5px;
         max-width: 22vw;
         box-shadow: none;
+        transition: all 500ms;
+    }
+
+    .articulo:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        border-bottom: #444 solid 0.1px;
     }
 
     h3 {
