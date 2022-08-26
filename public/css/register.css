@@ -61,7 +61,7 @@
 body {
     font-family: 'Roboto';
     font-size: 14px;
-    background-color: #ededed;
+    background-color: #ffffff;
 }
 
 img {
@@ -72,6 +72,39 @@ img {
     display: flex;
     margin: auto;
     flex-direction: column;
+}
+
+.fecha-de-nacimiento,
+.perfil-usuario,
+.intereses {
+    margin-bottom: 5px;
+    margin-left: 0;
+    padding-left: 20px;
+    border-top: #ebebeb 2px solid;
+    width: 100%;
+}
+
+.foto-de-perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-perfil {
+    margin-left: 20px;
+    font-weight: 400;
+    color: #666;
+    border-top: #ebebeb 2px solid;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.archivo-perfil {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .password input {

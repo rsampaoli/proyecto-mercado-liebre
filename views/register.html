@@ -52,12 +52,18 @@
                 <input class="passwordfirst" type="text" placeholder="Contraseña" name="contraseña">
                 <input class="passwordagain" type="text" placeholder="Confirmar contraseña" name="confirmarContraseña">
             </div>
-            <h3>Fecha de nacimiento</h3>
-            <input class="requerimientos1fecha" type="date" id="birthday" name="birthday">
-            <div class="requerimientos1">
-                <input type="text" placeholder="Domicilio" name="domicilio">
+            <div class="foto-de-perfil">
+                <p class="texto-perfil">Seleccione su foto de perfil</p>
+                <input class="archivo-perfil" type="file" name="foto-perfil" accept=".jpg .png">
             </div>
-            <h3>Perfil de usuario</h3>
+            <nav class="mid-reqeriments">
+                <h3 class="fecha-de-nacimiento">Fecha de nacimiento</h3>
+                <input class="requerimientos1fecha" type="date" id="birthday" name="birthday">
+                <div class="requerimientos1">
+                    <input type="text" placeholder="Domicilio" name="domicilio">
+                </div>
+            </nav>
+            <h3 class="perfil-usuario">Perfil de usuario</h3>
             <div class="requerimientos2">
                 <div class="catCompra">
                     <input type="radio" name="Comprador" value="Comprador">
@@ -68,7 +74,7 @@
                     <label for="Vendedor">Vendedor</label>
                 </div>
             </div>
-            <h3>Intereses</h3>
+            <h3 class="intereses">Intereses</h3>
             <nav class="requerimientos3">
                 <div class="electro">
                     <input type="checkbox" name="Electro" value="Electro">
