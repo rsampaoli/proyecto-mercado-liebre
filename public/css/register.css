@@ -6,6 +6,7 @@
 .main-header {
     background-color: #EAC926;
     padding: 20px;
+    max-width: 100%;
 }
 
 
@@ -229,10 +230,6 @@ input[type="radio"] {
     margin: 0px 10px;
 }
 
-.elementos-piepagina {
-    padding-left: 10px;
-    padding-top: 10px;
-}
 
 .electro {
     display: flex;
@@ -286,4 +283,178 @@ input[type="radio"] {
 
 .requerimientos3 {
     font-size: 18px;
+}
+.elementos-piepagina {
+    padding-left: 10px;
+    margin-top: 2%;
+}
+
+.medio-pago,
+.envios,
+.seguridad {
+    margin: 0;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+    .logo {
+        padding-right: 20px;
+    }
+
+    .main-header-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    .main-header-bot {
+        display: flex;
+    }
+
+    .main-header-bot {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-header-bot ul {
+        display: flex;
+    }
+
+    .main-header-bot li {
+        margin: 0px 5px;
+        font-size: 15px;
+    }
+
+    .busqueda-bar {
+        display: block;
+        max-height: 30px;
+        margin: auto;
+        width: 40%;
+        padding-left: 10px;
+    }
+
+    .busqueda-icon {
+        display: block;
+        justify-content: left;
+        padding-right: 1vw;
+        max-height: 30px;
+        max-width: 10px;
+        margin: auto;
+        padding-right: 15vw;
+    }
+
+    main {
+        max-width: 90%;
+        padding-left: 10vw;
+    }
+
+}
+
+@media (min-width: 1080px) {
+
+    form {
+        max-width: 70%;
+        padding-left: 20vw;
+    }
+
+    .main-header-top,
+    .main-header-bot {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top {
+        align-items: center;
+    }
+
+    .main-header-bot {
+        margin-top: 30px;
+    }
+
+    .main-header-bot li {
+        margin: 0px 10px;
+    }
+
+    .main-header-bot a {
+        font-size: 18px;
+        padding: 5px 5px;
+        transition: all 200ms;
+    }
+
+    .text-navbar {
+        transition: all 200ms;
+        color: #444;
+    }
+
+    .text-navbar:hover {
+        color: black;
+    }
+
+    .main-header-bot a:hover {
+        color: black;
+    }
+
+    .copy-header {
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .busqueda-bar {
+        display: block;
+        height: 50px;
+        margin: auto;
+        width: 40%;
+    }
+
+    .busqueda-icon {
+        display: flex;
+        justify-content: left;
+        padding-right: 1vw;
+        max-height: 40px;
+        max-width: 20px;
+        margin: auto;
+        padding-right: 15vw;
+    }
+
+    .botones {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        margin-bottom: 0;
+    }
+
+    .button-send {
+        background-color: #0044aa;
+    }
+
+    .button-delete {
+        background-color: #aa0044;
+    }
+
+    .elementos-piepagina {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+
+    }
+
+    .medio-pago,
+    .envios,
+    .seguridad {
+        margin: 10px;
+        padding-bottom: 4vh;
+        padding-top: 5vh;
+    }
+
 }
