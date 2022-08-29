@@ -3,75 +3,6 @@
     margin: 0;
 }
 
-.main-header {
-    background-color: #EAC926;
-    padding: 20px;
-    max-width: 100%;
-}
-
-
-.logo {
-    width: 200px;
-}
-
-.copy-header {
-    font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    text-align: center;
-    display: block;
-}
-
-.hamburger-button {
-    background-color: #3483fa;
-    color: #ffffff;
-    display: block;
-    max-width: 50px;
-    padding: 15px 0px;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 18px;
-    margin: auto;
-}
-
-.main-header-bot {
-    display: none;
-}
-
-.main-header-bot ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-.main-header-bot a {
-    text-decoration: none;
-    color: #222222;
-    display: inline-block;
-    padding: 5px 0px;
-    font-size: 17px;
-}
-
-.busqueda-bar {
-    display: none;
-}
-
-.busqueda-icon {
-    display: none;
-}
-
-body {
-    font-family: 'Roboto';
-    padding: 0;
-    margin: 0;
-    background-color: #ebebeb;
-}
-
-img {
-    width: 100%;
-}
-
 .password {
     display: flex;
     margin: auto;
@@ -119,6 +50,9 @@ img {
     margin-bottom: 20px;
     width: 45%;
     height: 30px;
+    padding: 0 0 0 15px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+
 }
 
 h3 {
@@ -145,6 +79,8 @@ h3 {
     border: none;
     border-radius: 2%;
     background-color: #0044aa;
+    border-radius: 10px;
+
 }
 
 .button-delete {
@@ -154,6 +90,8 @@ h3 {
     height: 30px;
     border-radius: 2%;
     background-color: #aa0044;
+    border-radius: 10px;
+
 }
 
 .requerimientos1 input {
@@ -165,6 +103,10 @@ h3 {
     border: none;
     border-radius: 4px;
     height: 30px;
+    padding: 0 0 0 15px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+
+
 }
 
 .requerimientos1fecha {
@@ -177,6 +119,10 @@ h3 {
     border: none;
     border-radius: 4px;
     height: 30px;
+    padding: 0 0 0 15px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+
+
 }
 
 h3 {
@@ -284,6 +230,7 @@ input[type="radio"] {
 .requerimientos3 {
     font-size: 18px;
 }
+
 .elementos-piepagina {
     padding-left: 10px;
     margin-top: 2%;
@@ -306,6 +253,10 @@ h5 {
 
     .logo {
         padding-right: 20px;
+    }
+
+    .main-header{
+        margin-bottom: 5%;
     }
 
     .main-header-top {
@@ -365,6 +316,10 @@ h5 {
     form {
         max-width: 70%;
         padding-left: 20vw;
+    }
+
+    .main-header{
+        margin-bottom: 2%;
     }
 
     .main-header-top,
@@ -436,10 +391,13 @@ h5 {
 
     .button-send {
         background-color: #0044aa;
+        border-radius: 10px;
     }
 
     .button-delete {
         background-color: #aa0044;
+        border-radius: 10px;
+
     }
 
     .elementos-piepagina {

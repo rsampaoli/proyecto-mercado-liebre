@@ -262,23 +262,20 @@ footer {
         margin: 0px 5px;
         font-size: 15px;
     }
-
     .busqueda-bar {
         display: block;
-        max-height: 30px;
         margin: auto;
         width: 40%;
-        padding-left: 10px;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+        height: 39px;
+        padding: 0 0 0 15px;
+        border-radius: 2px;
+        border: none;
+        position: relative;
     }
 
     .busqueda-icon {
-        display: block;
-        justify-content: left;
-        padding-right: 1vw;
-        max-height: 30px;
-        max-width: 10px;
-        margin: auto;
-        padding-right: 15vw;
+       display: none;
     }
 
 
@@ -383,19 +380,18 @@ footer {
 
     .busqueda-bar {
         display: block;
-        height: 50px;
         margin: auto;
         width: 40%;
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+        height: 39px;
+        padding: 0 0 0 15px;
+        border-radius: 2px;
+        border: none;
+        position: relative;
     }
 
     .busqueda-icon {
-        display: flex;
-        justify-content: left;
-        padding-right: 1vw;
-        max-height: 40px;
-        max-width: 20px;
-        margin: auto;
-        padding-right: 15vw;
+       display: none;
     }
 
     .productos-ultima-compra {
@@ -475,7 +471,8 @@ footer {
 
     .elementos-piepagina {
         display: flex;
-        justify-content: center
+        justify-content: center;
+        margin-top: 5vh;
     }
 
     .medio-pago,
