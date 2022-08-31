@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 .password {
@@ -11,12 +10,16 @@
 
 .fecha-de-nacimiento,
 .perfil-usuario,
-.intereses {
+.intereses, .datos {
     margin-bottom: 5px;
     margin-left: 0;
     padding-left: 20px;
     border-top: #ebebeb 2px solid;
     width: 100%;
+}
+
+.datos {
+    margin-top: 2%;
 }
 
 .foto-de-perfil {
@@ -415,4 +418,8 @@ h5 {
         padding-top: 5vh;
     }
 
+    .datos {
+        margin-bottom: 0;
+    }
+  
 }
