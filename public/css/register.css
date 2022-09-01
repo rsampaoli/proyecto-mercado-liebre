@@ -10,7 +10,8 @@
 
 .fecha-de-nacimiento,
 .perfil-usuario,
-.intereses, .datos {
+.intereses,
+.datos {
     margin-bottom: 5px;
     margin-left: 0;
     padding-left: 20px;
@@ -258,7 +259,7 @@ h5 {
         padding-right: 20px;
     }
 
-    .main-header{
+    .main-header {
         margin-bottom: 5%;
     }
 
@@ -321,7 +322,7 @@ h5 {
         padding-left: 20vw;
     }
 
-    .main-header{
+    .main-header {
         margin-bottom: 2%;
     }
 
@@ -395,19 +396,19 @@ h5 {
     .button-send {
         background-color: #0044aa;
         border-radius: 10px;
+        color: white;
     }
 
     .button-delete {
         background-color: #aa0044;
         border-radius: 10px;
-
+        color: white;
     }
 
     .elementos-piepagina {
         display: flex;
         justify-content: center;
         max-width: 100%;
-
     }
 
     .medio-pago,
@@ -421,5 +422,6 @@ h5 {
     .datos {
         margin-bottom: 0;
     }
-  
+
+
 }
