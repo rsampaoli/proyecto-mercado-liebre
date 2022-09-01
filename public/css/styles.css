@@ -172,6 +172,14 @@ footer {
     color: #3483fa;
 }
 
+.iconFooter i {
+    transition: 200ms;
+}
+
+.iconFooter i:hover {
+    color: green;
+}
+
 .detalles-piepagina p {
     font-size: 14px;
 }
