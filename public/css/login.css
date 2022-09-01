@@ -97,4 +97,9 @@ header {
         max-width: 60%;
         margin-left: 20%
     }
+
+    form {
+        max-width: 80%;
+        margin-left: 10%;
+    }
 }
