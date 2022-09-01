@@ -191,9 +191,10 @@ footer {
 }
 
 .detalles-piepagina {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
     background-color: white;
     border-radius: 1%;
-    margin: 0px 20px;
+    padding-bottom: 1px;
 }
 
 .elementos-piepagina {
@@ -374,10 +375,12 @@ footer {
 
     .text-navbar:hover {
         color: black;
+        font-weight: 400;
     }
 
     .main-header-bot a:hover {
         color: black;
+        font-weight: 400;
     }
 
     .copy-header {
@@ -482,6 +485,11 @@ footer {
         display: flex;
         justify-content: center;
         margin-top: 5vh;
+    }
+
+    .elementos-piepagina p {
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .medio-pago,
