@@ -85,13 +85,14 @@ footer {
 .articulo {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     cursor: pointer;
+    max-width: 60%;
     background-color: white;
     border-radius: 1%;
     margin: auto;
     cursor: pointer;
     margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .banner {
@@ -113,7 +114,8 @@ footer {
     display: block;
     color: #39b54a;
     position: absolute;
-    left: 15vw;
+    right: 70%;
+    
 }
 
 .iconoenvio i {
@@ -208,7 +210,7 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
     .main-header-top {
         display: flex;
         justify-content: space-between;
@@ -297,13 +299,15 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0 10%;
-        max-width: 100%;
+        margin-right: 10%%;
+        margin-left: 10%;
+        max-width: 80%;
     }
 
     .articulo {
         margin: 5px 5px;
         max-width: 37vw;
+        
     }
 
     .productos-ofertas {
@@ -342,7 +346,7 @@ footer {
 
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 890px) {
 
     .main-header-top,
     .main-header-bot {
